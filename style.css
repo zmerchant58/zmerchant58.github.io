@@ -1,0 +1,194 @@
+
+
+
+
+body {
+  
+ margin: 0px;
+ font-size: 1vw;
+ padding: 0;
+ background-image: url(images/IMG_0095.jpeg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position:center --50;
+
+
+
+}
+
+header { 
+    
+    background-color: #03719C;
+    margin:0%;
+    padding: 0%;
+   
+
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+   
+}
+
+main{
+  background-image: url(images/IMG_0095.jpeg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position:center;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+h1:hover {
+  transform: scale(1.6); /* Increase size by 20% */
+}
+
+h2:hover {
+  transform: scale(1.2); /* Increase size by 20% */
+}
+
+
+
+
+body > footer {
+  background: linear-gradient(to top, rgb(182, 226, 170), rgb(55, 167, 117));
+  width: 100%;
+  padding: 20px;
+  border-radius: 0%;
+ 
+  
+}
+
+body > main > article {
+  padding: 0%;
+  margin: 0%;
+}
+
+body > header {
+  background-color: #343837;
+  
+  align-items: center;
+  
+  color:#32BF84;}
+
+body > header > nav > ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  text-align:center;
+  width: 100%;
+
+  
+}
+
+body > header > nav > ul > li{
+  display: flex;
+  padding: 30px;
+  text-decoration: none;
+  align-items: center;
+  height: 100%;
+}
+
+.sidebar {
+  overflow: hidden;
+}
+
+.sidebar > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar > ul > li {
+ display: inline;
+}
+
+.sidebar >ul > li > a {
+  display: block;
+  color: #0F9B8E;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.sidebar >ul > li :hover {
+  transform: scale(1.1);
+}
+
+body > main > article > footer {
+  background-color: #0F9B8E;
+  padding: 0%;
+  margin: 0%;
+  white-space-collapse: ;
+}
+.navbutton {
+  color: #0F9B8E;
+
+}
+
+body > main > article {
+  width: 100%;
+  
+
+}
+
+form {
+  text-align:center
+}
+
+h1{
+  background-color: #0F9B8E;
+ background-clip: text;
+ color: transparent;
+ text-align: center;
+  padding: 0%;
+  margin: 0%;
+ border: 0cm;
+ width: 100%;
+ height: 20%;
+}
+h2 {
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+img {
+  border-radius: 150%
+
+}
+img {
+  opacity: 0;
+  transition: opacity 230ms;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+.img-mountain{
+  width: 300px;
+  height: 300px;
+}
+.img-snow{
+  width: 300px;
+  height: 300px;
+  
+
+}
+
+.img-cliffs {
+  width: 300px;
+  height: 300px;
+}
+
+.img-dorset{
+  width: 300px;
+  height: 300px;
+}
